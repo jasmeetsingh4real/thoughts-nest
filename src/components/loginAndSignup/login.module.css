@@ -1,0 +1,52 @@
+.loginPage .loginPageImg {
+  max-height: 100vh;
+  padding: 20px;
+  position: relative;
+}
+.loginImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+  max-height: 100%;
+}
+.projName {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  font-size: 40px;
+  font-weight: 800;
+  top: 44%;
+  right: 34%;
+  text-shadow: #fc0 1px 0 10px;
+}
+.loginImgContainer img {
+  height: 100%;
+}
+
+.loginFieldsCont {
+  padding: 20px 0;
+}
+.signUpBtn {
+  width: 100%;
+  text-align: end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.signUpBtn button {
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.loginFields {
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  flex-direction: column;
+}
+.loginFields h3 {
+  font-weight: 400;
+}
